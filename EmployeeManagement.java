@@ -34,7 +34,7 @@ public class EmployeeManagement
 		ObjectOutputStream oos =null;
 		try{
 			
-			f = new File("N:/Java Work Space/Eclipse Programs/Employee Management Tool/src/EmployeeDataList1.txt");
+			f = new File("N:/eclipse-workspace/CS130_2/src/Project_2/EmployeeManagement.java");
 			if(f.exists())
 			{
 				fis = new FileInputStream(f);
